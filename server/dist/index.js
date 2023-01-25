@@ -20,6 +20,13 @@ const app = (0, express_1.default)();
 const port = process.env.PORT;
 app.get('/api/products', (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     const products = yield (0, products_1.default)();
+    const page = Number(req.query.page);
+    const limit = Number(req.query.limit);
+    if (limit && page) {
+        const productPage = products.splice((page - 1) * limit, limit);
+        productPage.length ? res.json(productPage) : res.status(404).send('Page Not Found');
+        return;
+    }
     res.json(products);
 }));
 app.get('/api/products/:id', (req, res) => __awaiter(void 0, void 0, void 0, function* () {

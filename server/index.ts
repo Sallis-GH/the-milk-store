@@ -8,6 +8,13 @@ const port = process.env.PORT;
 
 app.get('/api/products', async (req: Request, res: Response) => {
   const products = await getData()
+  const page = Number(req.query.page)
+  const limit = Number(req.query.limit)
+  if(limit && page) {
+    const productPage = products.splice((page-1)*limit, limit)
+    productPage.length ? res.json(productPage) : res.status(404).send('Page Not Found')
+    return
+  }
   res.json(products)
 });
 
