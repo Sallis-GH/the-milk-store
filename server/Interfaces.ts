@@ -7,5 +7,10 @@ interface ProductData {
   id: string
 }
 
+interface FilterCheck {
+  type: string;
+  isChecked: boolean;
+}
 
-export {ProductData}
+
+export {ProductData, FilterCheck}
