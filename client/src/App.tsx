@@ -1,20 +1,16 @@
-import Header from "./components/Header";
-import NavBar from "./components/NavBar";
-import Product from "./components/Product";
+import { Routes, Route } from 'react-router-dom';
 
+import HomePage from './Pages/HomePage';
+import ProductsPage from './Pages/ProductsPage';
 function App() {
   return (
     <>
-      <Header />
-      <main>
-        <section className="flex justify-center">
-          <NavBar />
-        </section>
-        <section className="flex justify-center">
-          <Product />
-        </section>
-
-      </main>
+      <Routes>
+        <Route path='/' element={<HomePage />} />
+      </Routes>
+      <Routes>
+        <Route path='/products/:id' element={<ProductsPage />} />
+      </Routes>
     </>
   );
 }

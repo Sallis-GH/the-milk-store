@@ -5,3 +5,13 @@
 body {
   @apply w-screen bg-[#ffe3e2]
 }
+
+input[type=range]::-webkit-slider-thumb {
+  pointer-events: auto;
+  width: 20px;
+  height: 20px;
+  border: solid black 1px;
+  border-radius: 50%;
+  -webkit-appearance: none;
+  @apply bg-gray-100
+}
