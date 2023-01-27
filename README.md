@@ -21,7 +21,7 @@ type: string
 
 Clone the repository. <br>
 Change the .envtemplate to .env <br>
-Change the content of the .env file to your own information.
+Change the content of the .env file to your own information. <
 Install the packages in /server and /client. <br>
 Run the /server and /client in two seperate windows.
 
