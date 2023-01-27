@@ -1,0 +1,6 @@
+<!-- Remove the <> when changing to your own variables -->
+
+PORT=<yourport>
+MONGO_DB_URI=<Mongo_DB_URI>
+MONGO_DATABASE_NAME=<MilkStoreDB>
+MONGO_COLLECTION_NAME=<Products>

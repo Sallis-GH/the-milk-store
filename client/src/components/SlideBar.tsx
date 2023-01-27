@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
-const SlideBar = ({ storage }: { storage: number }) => {
-  const [currentValue, setCurrentValue] = useState(1);
+const SlideBar = ({ currentValue, setCurrentValue, storage }: { currentValue:number, setCurrentValue:Function, storage: number }) => {
+  
 
   return (
     <div className='flex flex-col gap-6 pt-2'>
