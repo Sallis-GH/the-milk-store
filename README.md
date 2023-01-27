@@ -72,6 +72,6 @@ If you set up everything correctly your page should look something like this:
 * [TailwindCSS](https://tailwindcss.com/) - Styling Framework
 * [Framer Motion](https://www.framer.com/motion/) - React motion library
 
-## Authors
+## Author
 
 * **Salamon Rørvik** - [Sallis-GH](https://github.com/Sallis-GH)
