@@ -69,7 +69,7 @@ If you set up everything correctly your page should look something like this:
 
 * [React](https://reactjs.org) - Front-end library
 * [Express](https://expressjs.com/) - Back-end framework
-* [MongoDB](https://www.mongodb.com/atlas/database) - The official MongoDB driver for Node.js
+* [MongoDB](https://www.npmjs.com/package/mongodb) - The official MongoDB driver for Node.js
 * [TailwindCSS](https://tailwindcss.com/) - Styling Framework
 * [Framer Motion](https://www.framer.com/motion/) - React motion library
 
