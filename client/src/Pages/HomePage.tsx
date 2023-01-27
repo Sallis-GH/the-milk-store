@@ -21,13 +21,11 @@ const Home = () => {
     <>
       <Header />
       <main>
-        <section className='flex justify-center'>
           <NavBar
             products={productData}
             allProducts={allProducts}
             setProductData={setProductData}
           />
-        </section>
         <section className='flex justify-center'>
           <Product products={productData} />
         </section>

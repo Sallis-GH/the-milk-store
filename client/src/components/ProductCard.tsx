@@ -18,7 +18,7 @@ const ProductCard = ({
       className='bg-white rounded-lg w-[280px] h-[344px]  md:w-[200px] md:h-[288px] lg:h-[324px] lg:w-[260px]'
     >
       <img
-        className='bg-gray-400 p-6 rounded-t-lg w-[280px] h-[280px] md:w-[200px] md:h-[200px] lg:w-[260px] lg:h-[260px]'
+        className='bg-gray-100 p-6 rounded-t-lg w-[280px] h-[280px] md:w-[200px] md:h-[200px] lg:w-[260px] lg:h-[260px]'
         src={MilkImage}
         alt='Milk Illustration'
       />

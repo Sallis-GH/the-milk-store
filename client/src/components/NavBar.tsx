@@ -39,7 +39,7 @@ const NavBar = ({
   useEffect(setFilters, [typeFilter, allProducts, searchValue, setProductData]);
 
   return (
-    <div className='relative w-auto px-2 flex flex-col sm:flex-row justify-between sm:justify-evenly mt-4 sm:mt-8 sm:w-[500px]'>
+    <nav className='relative px-2 flex flex-col sm:flex-row justify-between sm:justify-evenly mt-4 sm:mt-8 sm:w-full'>
       <div className='flex w-64 bg-white items-center gap-1 border-2 rounded-xl px-2 py-1'>
         <MagnifyingGlassIcon className='w-[16px] h-[16px] cursor-pointer' />
         <input
@@ -53,7 +53,7 @@ const NavBar = ({
       <div className='mt-2 ml-2'>
         <Filter allProducts={allProducts} setTypeFilter={setTypeFilter} />
       </div>
-    </div>
+    </nav>
   );
 };
 
