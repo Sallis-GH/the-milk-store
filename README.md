@@ -4,7 +4,7 @@ An application to see available products with information about amount available
 
 ### Prerequisites
 
-A [MongoDB server](https://www.mongodb.com/)
+A [MongoDB Atlas server](https://www.mongodb.com/atlas/database)
 
 How the data should be set up:
 ```
@@ -69,6 +69,7 @@ If you set up everything correctly your page should look something like this:
 
 * [React](https://reactjs.org) - Front-end library
 * [Express](https://expressjs.com/) - Back-end framework
+* [MongoDB](https://www.mongodb.com/atlas/database) - React motion library
 * [TailwindCSS](https://tailwindcss.com/) - Styling Framework
 * [Framer Motion](https://www.framer.com/motion/) - React motion library
 
