@@ -44,7 +44,7 @@ const NavBar = ({
         <MagnifyingGlassIcon className='w-[16px] h-[16px] cursor-pointer' />
         <input
           onChange={handleSearchInput}
-          className='bg-transparent border-none    focus:ring-0'
+          className='bg-transparent border-none focus:ring-0'
           type='text'
           placeholder='Search'
           value={searchValue}
